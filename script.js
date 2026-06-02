@@ -1,10 +1,10 @@
-//your JS code here. 
-const height = document.getelementbyId("height")
-const width = document.getelementbyId("width")
-height.innerText =window.innerheight;
-width.innerText =window.innerwidth;
+const height = document.getElementById("height");
+const width = document.getElementById("width");
 
-window.addEventListener("resize", function(){
-            height.innerText = window.innerHeight;
-            width.innerText = window.innerWidth;
-        })
+height.innerText = window.innerHeight;
+width.innerText = window.innerWidth;
+
+window.addEventListener("resize", function () {
+    height.innerText = window.innerHeight;
+    width.innerText = window.innerWidth;
+});
